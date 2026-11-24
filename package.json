@@ -1,0 +1,25 @@
+{
+  "name": "property-crm-sample",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Small reference build: property pipeline CRM with an AI lead agent (rules + LLM + human override). Sample data only.",
+  "scripts": {
+    "dev": "next dev -p 3100",
+    "build": "next build",
+    "start": "next start -p 3100",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.10",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "typescript": "5.5.3",
+    "vitest": "2.1.4"
+  }
+}
