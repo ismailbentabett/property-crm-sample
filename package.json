@@ -4,14 +4,14 @@
   "private": true,
   "description": "Small reference build: property pipeline CRM with an AI lead agent (rules + LLM + human override). Sample data only.",
   "scripts": {
-    "dev": "next dev -p 3100",
-    "build": "next build",
-    "start": "next start -p 3100",
+    "dev": "node init && next dev -p 3100",
+    "build": "node init && next build",
+    "start": "node init && next start -p 3100",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "next": "14.2.35",
+    "next": "16.4.6",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
